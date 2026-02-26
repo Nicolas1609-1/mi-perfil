@@ -1,59 +1,68 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Documentación del Proyecto: Mi Perfil Web Personal
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## Nombre del Proyecto
 
-## About Laravel
+Mi Perfil Web Personal desarrollado con Laravel.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Descripción
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+El presente proyecto consiste en el desarrollo de una aplicación web utilizando el framework Laravel. 
+Su objetivo es presentar información personal organizada en diferentes secciones: Perfil, Intereses, Habilidades y Metas.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Cada sección se implementa mediante vistas Blade independientes y se accede a ellas a través de rutas definidas en el archivo web.php. 
+El proyecto incluye navegación entre páginas mediante un menú funcional y un diseño visual desarrollado con CSS propio, sin el uso de frameworks externos como Bootstrap.
 
-## Learning Laravel
+Este desarrollo permite aplicar conocimientos fundamentales sobre:
+- Definición de rutas en Laravel
+- Creación de vistas con Blade
+- Organización básica de un proyecto MVC
+- Enlace de archivos CSS externos
+- Uso de control de versiones con Git y GitHub
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+## Requisitos del Sistema
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Para ejecutar el proyecto correctamente se requiere:
 
-## Laravel Sponsors
+- PHP versión 8.0 o superior
+- Composer instalado
+- Laravel instalado
+- Servidor local (XAMPP, Laragon o similar)
+- Navegador web actualizado
+- Sistema operativo Windows, Linux o MacOS
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+## Instrucciones de Instalación
 
-### Premium Partners
+Para instalar el proyecto en un entorno local, se deben seguir los siguientes pasos:
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+1. Clonar el repositorio desde GitHub:
+   git clone https://github.com/Nicolas1609-1/mi-perfil.git
 
-## Contributing
+2. Ingresar al directorio del proyecto:
+   cd mi-perfil
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+3. Instalar las dependencias necesarias:
+   composer install
 
-## Code of Conduct
+4. Generar la clave de la aplicación:
+   php artisan key:generate
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## Cómo Ejecutar el Proyecto
 
-## Security Vulnerabilities
+Para ejecutar la aplicación, se debe iniciar el servidor de desarrollo de Laravel con el siguiente comando:
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+php artisan serve
 
-## License
+Posteriormente, abrir el navegador e ingresar a la siguiente dirección:
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+http://127.0.0.1:8000/perfil
+
+Desde esa página se podrá navegar a las demás secciones:
+- /intereses
+- /habilidades
+- /metas
+
+## Autor y Fecha
+
+Autor: Nicolás Javier Abello Suárez  
+Programa: Ingeniería de Sistemas  
+Año: 2026
