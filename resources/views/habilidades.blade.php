@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Mis Habilidades</title>
+    <link rel="stylesheet" href="{{ asset('css/estilos.css') }}">
 </head>
 <body>
     <h1>Mis Habilidades</h1>
